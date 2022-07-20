@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.title{
+    float: left;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.title-description{
+    display: inline-block;
+    margin: 2%;
+
+}
+.card{
+    flex-grow: 1 !important;
+    margin: 1%;
+    background-color: #f3f3f3;
+    padding: 0%;
+}
+@media(min-width: 992px){
+    .col-lg-3 {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+        width: 20%;
+    }
+
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    text-transform: uppercase;
+    font-size: medium;
+}
+.card-text{
+    color: #717171;
+    font-weight: 500;
+}
+.card-info{
+    color: #969696;
+    text-transform: capitalize;
+    font-size: x-small;
+}
+.num-comments{
+    margin-left: 3px;
+}
+.footer{
+   padding: 3% 0%;
+    background-color: #17a6b6;
+    color: #fffdff;
+    font-weight: 300;
+    font-size: small;
+
+
+}
+.footer button{
+    font-weight: 500;
+
+}
+.footer button:hover{
+    background-color: #969696;
+    color: #17a6b6;
+}
+.contact-form-btn{
+    background-color: #fffdff;
+}
+.social-media-links{
+    border-bottom: 1px solid #43c1d0;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+    /* justify-content: center; */
+}
+.input-group, .form-control{
+    border-radius: 0%;
+}
+.font-primary-color {
+    color: #17a6b6;
+}
+.footer-heading{
+    text-transform: uppercase;
+    font-size: large;
+}
+.about-us{
+    background-image: url(images/black-dot-world-map-transparent-effect-background-vector-74600263-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* border-bottom: 1px solid #43c1d0 ; */
+    
+}
+.arrow{
+    font-size: small;
+    font-weight: lighter;
+    color: #43c1d0 ;
+}
+
+.btn{
+    border-radius: 0%;
+}
+.btn-light{
+    background-color:#f3f3f3;
+}
+.link , .link:hover{
+    color: #fffdff;
+    border-radius: 50%;
+    margin: 2%;
+    margin-bottom: 5%;
+    
+}
+.fa-twitter,.fa-facebook,.fa-pinterest{
+    color: #17a6b6;
+    z-index: 200;
+
+}
+.fa-circle{
+    z-index: 100;
+}
+.input-group-text{
+    color: #969696;
+    background-color: #fffdff;
+}
+.about-us ul{
+    padding-inline-start: 15px;
+}
