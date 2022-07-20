@@ -125,3 +125,30 @@
 .about-us ul{
     padding-inline-start: 15px;
 }
+
+
+.my-modal-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8em;
+    
+}
+
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 70rem;
+        margin: 1.75rem auto;
+    }
+
+}
+
+.modal-img{
+    max-width: 50em;
+    height: 15em;
+}
+.modal-title{
+    text-transform: uppercase;
+    font-weight: normal;
+}
